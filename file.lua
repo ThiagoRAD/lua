@@ -1,9 +1,14 @@
+text1 = 'Hello, Lua!'
+text2 = "Hello, Lua!"
+concatenated_text = text1 .. " " .. text2
+print(concatenated_text)
+
 multiline_string = [[
 This is a multiline
 string in Lua.
 It can span multiple lines.
 ]]
-
+print(multiline_string)
 
 
 some_text = "Hello, Lua!"
