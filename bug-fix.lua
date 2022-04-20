@@ -10,6 +10,6 @@ local level = 10
 local health = 85
 
 print("Name: " .. name)
-print("Level: " .. level)  
+print("Level: " .. lvl)  
 print("Health: " .. health)
-print("Stats: " .. name .. " " .. level .. " " .. health)
+print("Stats: " .. name .. " " + level .. " " .. health)
