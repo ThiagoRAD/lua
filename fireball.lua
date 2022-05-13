@@ -19,5 +19,7 @@ function Spell:cast(caster, target)
     print(caster.." used "..self.manaCost.." mana to cast "..self.name.." doing "..self.damage.." to "..target..".")
 end
 
-fireball = Spell.new("fireball", 10, 10)
+local fireball = Spell:new("Fireball", 30, 20)
+local iceSpike = Spell:new("Ice Spike", 20, 15)
 fireball:cast("Wizard", "Goblin")
+iceSpike:cast("Wizard", "Orc")
