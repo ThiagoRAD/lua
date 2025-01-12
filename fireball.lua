@@ -7,7 +7,7 @@ Spell = {
 }
 Spell.__index = Spell
 
-function Spell.new(name, damage, manaCost) 
+function Spell:new(name, damage, manaCost) 
     local self = setmetatable({}, Spell)
     self.name = name
     self.damage = damage
